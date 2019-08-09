@@ -71,6 +71,26 @@ p {
     margin: 0 auto;
 }
 
+.tnav{
+    display: flex;
+    margin: 20px;
+}
+
+nav a{
+    
+    margin-left: 2px;
+    padding: 0 15px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.jumbo{
+    width: 100%;
+    margin: 20px
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -89,6 +109,9 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+
+
 
 .middle-content h2 {
     padding: 0 2%;
@@ -110,6 +133,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:nth-child(1){
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+    background-color: dodgerblue;
 }
 
 .bottom-content {
