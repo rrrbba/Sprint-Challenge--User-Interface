@@ -258,9 +258,7 @@ footer nav a {
     
 }
 
-/* .places img{
-    width: 92%
-} */
+
 
 .places p{
     width: 99%;
@@ -283,11 +281,12 @@ button {
 	border-radius: 5px;
 	margin-top: 10px;
 	width: 40%;
-	padding: 7px 10px;
-	font-size: 12px;
+	padding: 7px 5px;
+	font-size: 17px;
 	text-align: center;
     font-style: bold;
-    border-color: black
+    /* border-color: black; */
+    border: 3px solid black;
 }
 
 .midS{
@@ -295,8 +294,20 @@ button {
     flex-direction: wrap;
     /* justify-content: space-around; */
     justify-content: center;
-  
      
+}
+
+.midS h1{
+    padding: 10px 0 0 0;
+}
+
+.collab h1{
+    padding: 10px 0 0 0;
+}
+
+
+.places h1{
+    padding: 10px 0 0 0;
 }
 
 .topAbout{
@@ -311,7 +322,7 @@ button {
 
 .bottomA h1{
    
-    width: -500
+    width: -500;
 }
 
 .aboutFoot{
